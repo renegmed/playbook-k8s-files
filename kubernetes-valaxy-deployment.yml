@@ -1,8 +1,8 @@
 ---
 - name: Create pods using deployment 
-  hosts: kubernetes 
+  hosts: ansible-server 
   become: false
-  user: ubuntu
+  user: ansadmin
  
   tasks: 
   - name: create a deployment
